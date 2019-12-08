@@ -27,6 +27,7 @@ class App extends Component {
           <button onClick={() => this.props.fetch_user()}>axios请求</button>
         </div>
         <h2>{data}</h2>
+        <h3>test</h3>
       </div>
     );
   }
